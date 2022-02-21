@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background-color: #323232;
+}
+
+.container{
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);;
+    height: 120px;
+    width: 500px;
+    line-height: 120px;
+    text-align: center;
+    padding: 0 5px;
+    border-radius: 10px;
+    cursor: default;
+    animation: animate 1.5s linear infinite;
+    box-shadow: 0;
+}
+
+.container .wrapper{
+    font-size: 60px;
+    color: #fff;
+    letter-spacing: 5px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);;
+
+}
